@@ -1,4 +1,3 @@
-
 # Salesforce Connection using Node JS - jsforce
 A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. In this repository all node files are there to set up salesforce connection peoject, please follow the instruction as I mentioned bellow section. .
 
@@ -41,9 +40,11 @@ Before being able to interact with the Salesforce Platform with your application
 
 ## Configuring and instalation
 
-1. npm install
-2. Change PORT no as per your server on index.js file in the root. I put as 9005 as per my server.
-3. Change Salesforce credential on lib\controller\controller.salesforce.js file.
+1. Create a new folder and add package.json
+2. npm install
+3. Now copy other files to the newly created folder.
+4. Change PORT no as per your server on index.js file in the root. I put as 9005 as per my server.
+5. Change Salesforce credential on lib\controller\controller.salesforce.js file.
 
 **Please make sure your directory has full permission
 
