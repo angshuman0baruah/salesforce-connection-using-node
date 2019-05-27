@@ -1,8 +1,8 @@
 
 # Salesforce Connection using Node JS - jsforce
-A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. I have not mentioned node express connection or routing files over here. Just attaching file for Salesforce connection with login and retrieve data only.
+A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. In this repository all node files are there to set up salesforce connection peoject, please follow the instruction as I mentioned bellow section. .
 
-As a programmer, I think this is the easiest way to retrieve without any API call. Just have to use like normal mongoose query. In this repository, I am attaching only code for retrieve only. You can also add a record in Salesforce. Here a sample code inserts a record :
+As a programmer, I think this is the easiest way to retrieve without any API call. Just have to use like normal mongoo query. In this repository, I am attaching only code for retrieve only. You can also add a record in Salesforce. Here a sample code inserts a record :
 
 ```
 salesforceConn.sobject("Account").create([
@@ -17,7 +17,8 @@ function(err, resp) {
 	}
 });
 ```
-For insert also you have to log in like mentioned in the attached file(saleforceNode.js).
+For insert also you have to log in like mentioned in the attached file(lib\controller\controller.salesforce.js).
+
 
 
 ## Declaring your application in Salesforce
@@ -37,17 +38,24 @@ Before being able to interact with the Salesforce Platform with your application
 	- Over there you will find out token as Security Token.
 4. Always you have to make a connection and login for fetch records from Salesforce.
 
+
 ## Configuring and instalation
 
-1. npm install jsforce
-2. And other installation for run node.
-3. Use saleforceNode.js file.
+1. npm install
+2. Change PORT no as per your server on index.js file in the root. I put as 9005 as per my server.
+3. Change Salesforce credential on lib\controller\controller.salesforce.js file.
+
+**Please make sure your directory has full permission
 
 
+## How to Run
 
+After all Configuring and instalation
 
-
-
+1. node index
+2. After that, *"Connected to port 9005 for Salesforce! Developer : Angshuman Baruah"* on your terminal screen.
+3. From browser or postman using **_Get_** method hit URL : http://localhost:9005/ (Instead  of 9005 use your port no).
+4. The response will appear on your terminal.
 
 
 > *Courtesy: https://jsforce.github.io/document/* 
