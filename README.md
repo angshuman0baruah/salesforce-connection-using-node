@@ -1,5 +1,22 @@
 # Salesforce Connection using Node JS - jsforce
 A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. I am not mentioned node express connection or routing files over here. Just attaching file for Salesforce connection with login and retrieve data only. 
+As a programmer I think this is easiest way to retrieve without any API call. Just have to use like normal mongoo query. In this repository I am attaching only code for retrieve only. You can also add record in Saleforce. Here some sample code insert record :
+
+```
+conn.sobject("Account").create([
+  { Name : 'My Account #1' },
+  { Name : 'My Account #2' }
+],
+function(err, resp) {
+	if(resp.length>0){
+		console.log(resp);
+	} else{
+		console.log("Something wnt wrong during insert");
+	}
+});
+```
+For insert also you have to login like mentioned in attached file(saleforceNode.js).
+
 
 ## Declaring your application in Salesforce
 
@@ -16,3 +33,6 @@ Before being able to interact with the Salesforce Platform with your application
 1. npm install jsforce
 2. And other instalation for run node.
 3. Use saleforceNode.js file.
+
+
+> *Courtesy & help from : https://jsforce.github.io/document/ 
