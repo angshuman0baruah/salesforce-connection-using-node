@@ -1,8 +1,8 @@
 
 # Salesforce Connection using Node JS - jsforce
-A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. I am not mentioned node express connection or routing files over here. Just attaching file for Salesforce connection with login and retrieve data only. 
+A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. I have not mentioned node express connection or routing files over here. Just attaching file for Salesforce connection with login and retrieve data only.
 
-As a programmer I think this is easiest way to retrieve without any API call. Just have to use like normal mongoo query. In this repository I am attaching only code for retrieve only. You can also add record in Saleforce. Here some sample code insert record :
+As a programmer, I think this is the easiest way to retrieve without any API call. Just have to use like normal mongoose query. In this repository, I am attaching only code for retrieve only. You can also add a record in Salesforce. Here a sample code inserts a record :
 
 ```
 salesforceConn.sobject("Account").create([
@@ -17,7 +17,7 @@ function(err, resp) {
 	}
 });
 ```
-For insert also you have to login like mentioned in attached file(saleforceNode.js).
+For insert also you have to log in like mentioned in the attached file(saleforceNode.js).
 
 
 ## Declaring your application in Salesforce
@@ -35,8 +35,7 @@ Before being able to interact with the Salesforce Platform with your application
 	- Follow onscreen instructions.
 	- A new email message will be sent.
 	- Over there you will find out token as Security Token.
-4. Always you have to make connection and login for fetch records from Salesforce.
-
+4. Always you have to make a connection and login for fetch records from Salesforce.
 
 ## Configuring and instalation
 
