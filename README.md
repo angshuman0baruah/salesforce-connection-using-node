@@ -37,6 +37,7 @@ Before being able to interact with the Salesforce Platform with your application
 	- Over there you will find out token as Security Token.
 4. Always you have to make a connection and login for fetch records from Salesforce.
 
+**Please make sure your account should be Enterprise Edition, Unlimited Edition and Developer Edition
 
 ## Configuring and instalation
 
