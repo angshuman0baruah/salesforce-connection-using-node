@@ -5,16 +5,16 @@ As a programmer, I think this is the easiest way to retrieve without any API cal
 
 ```
 salesforceConn.sobject("Account").create([
-  { Name : 'My Account #1' },
-  { Name : 'My Account #2' }
+	{ Name: 'My Account #1' },
+	{ Name: 'My Account #2' }
 ],
-function(err, resp) {
-	if(resp.length>0){
-		console.log(resp);
-	} else{
-		console.log("Something went wrong during insert :"+err);
-	}
-});
+	function (err, resp) {
+		if (resp.length > 0) {
+			console.log(resp);
+		} else {
+			console.log("Something went wrong during insert :" + err);
+		}
+	});
 ```
 For insert also you have to log in like mentioned in the attached file(lib\controller\controller.salesforce.js).
 
