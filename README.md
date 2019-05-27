@@ -58,6 +58,8 @@ After successfully completed all Configuring and installation
 2. After that, *"Connected to port 9005 for Salesforce! Developer : Angshuman Baruah"* on your terminal screen.
 3. From browser or postman using **_Get_** method hit URL : http://localhost:9005/ (Instead  of 9005 use your port no).
 4. The response will appear on your terminal.
+ 
+ 
+ ** **
 
-
-> *Author: Angshuman Baruah* 
+> *Developer: Angshuman Baruah* 
