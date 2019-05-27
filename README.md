@@ -24,8 +24,16 @@ For insert also you have to login like mentioned in attached file(saleforceNode.
 Before being able to interact with the Salesforce Platform with your application, you will have to declare it as a connected application:
 
 1. Log in your Salesforce administrator account
-2. Enable API from Manage Users->Profile and scroll down to Administrative Permissions and check the API Enabled box. 
-3. Generate Token : In the User Menu, select Setup. In the menu on the left, under Personal Setup, expand My Personal Information, and then click Reset My Security Token.Follow onscreen instructions.A new email message will be sent.Over there you will find out token as Security Token.
+2. Enable API from 
+	a. Manage Users->Profile 
+	b. scroll down to Administrative Permissions 
+	c. check the API Enabled box. 
+3. Generate Token : 
+	a. In the User Menu, select Setup. 
+	b. In the menu on the left, under Personal Setup, expand My Personal Information, and then click Reset My Security Token.
+	c. Follow onscreen instructions.
+	d. A new email message will be sent.
+	e. Over there you will find out token as Security Token.
 4. Always you have to make connection and login for fetch records from Salesforce.
 
 
