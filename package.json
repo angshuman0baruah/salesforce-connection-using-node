@@ -1,0 +1,19 @@
+{
+  "name": "SalesforceConnectionNode",
+  "version": "0.0.1",
+  "description": "Salesforce connection using node js",
+  "main": "index.js",
+  "keywords": [
+    "Salesforce"
+  ],
+  "author": "Angshuman Baruah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.15.2",
+    "jsforce": "^1.9.1"
+  },
+  "devDependencies": {
+    "async": "^2.5.0"
+  }
+}
