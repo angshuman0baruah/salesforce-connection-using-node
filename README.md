@@ -52,7 +52,7 @@ Before being able to interact with the Salesforce Platform with your application
 
 After all Configuring and instalation
 
-1. node index
+1. Run *node index* from your terminal
 2. After that, *"Connected to port 9005 for Salesforce! Developer : Angshuman Baruah"* on your terminal screen.
 3. From browser or postman using **_Get_** method hit URL : http://localhost:9005/ (Instead  of 9005 use your port no).
 4. The response will appear on your terminal.
