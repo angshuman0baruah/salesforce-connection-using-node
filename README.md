@@ -40,7 +40,7 @@ Before being able to interact with the Salesforce Platform with your application
 ## Configuring and instalation
 
 1. npm install jsforce
-2. And other instalation for run node.
+2. And other installation for run node.
 3. Use saleforceNode.js file.
 
 
