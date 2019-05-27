@@ -1,6 +1,7 @@
 
 # Salesforce Connection using Node JS - jsforce
 A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. I am not mentioned node express connection or routing files over here. Just attaching file for Salesforce connection with login and retrieve data only. 
+
 As a programmer I think this is easiest way to retrieve without any API call. Just have to use like normal mongoo query. In this repository I am attaching only code for retrieve only. You can also add record in Saleforce. Here some sample code insert record :
 
 ```
@@ -25,15 +26,15 @@ Before being able to interact with the Salesforce Platform with your application
 
 1. Log in your Salesforce administrator account
 2. Enable API from 
-	a. Manage Users->Profile 
-	b. scroll down to Administrative Permissions 
-	c. check the API Enabled box. 
+	- Manage Users->Profile 
+	- Scroll down to Administrative Permissions 
+	- Check the API Enabled box. 
 3. Generate Token : 
-	a. In the User Menu, select Setup. 
-	b. In the menu on the left, under Personal Setup, expand My Personal Information, and then click Reset My Security Token.
-	c. Follow onscreen instructions.
-	d. A new email message will be sent.
-	e. Over there you will find out token as Security Token.
+	- In the User Menu, select Setup. 
+	- In the menu on the left, under Personal Setup, expand My Personal Information, and then click Reset My Security Token.
+	- Follow onscreen instructions.
+	- A new email message will be sent.
+	- Over there you will find out token as Security Token.
 4. Always you have to make connection and login for fetch records from Salesforce.
 
 
