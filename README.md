@@ -42,12 +42,12 @@ Before being able to interact with the Salesforce Platform with your application
 ## Configuring and installation
 
 1. Create a new folder and add package.json
-2. npm install
+2. *npm install* to install all modules in your project.
 3. Now copy other files to the newly created folder.
 4. Change PORT no as per your server on index.js file in the root. I put as 9005 as per my server.
 5. Change Salesforce credential on lib\controller\controller.salesforce.js file.
 
-**Please make sure your directory has full permission
+**Please make sure your directory has full permission.
 
 
 ## How to Run
