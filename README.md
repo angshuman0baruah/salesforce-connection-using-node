@@ -4,7 +4,7 @@ A sample Node.js application that integrates with Salesforce using npm jsforce m
 As a programmer I think this is easiest way to retrieve without any API call. Just have to use like normal mongoo query. In this repository I am attaching only code for retrieve only. You can also add record in Saleforce. Here some sample code insert record :
 
 ```
-conn.sobject("Account").create([
+salesforceConn.sobject("Account").create([
   { Name : 'My Account #1' },
   { Name : 'My Account #2' }
 ],
