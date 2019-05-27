@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/angshuman0baruah/salesforce-connection-using-node.svg?branch=master)](https://travis-ci.org/angshuman0baruah/salesforce-connection-using-node)
 
 # Salesforce Connection using Node JS - jsforce
 A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. I am not mentioned node express connection or routing files over here. Just attaching file for Salesforce connection with login and retrieve data only. 
