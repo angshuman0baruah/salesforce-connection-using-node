@@ -60,4 +60,4 @@ After successfully completed all Configuring and installation
 4. The response will appear on your terminal.
 
 
-> *Courtesy: https://jsforce.github.io/document/* 
+> *Author: Angshuman Baruah* 
