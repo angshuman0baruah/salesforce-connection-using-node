@@ -12,7 +12,7 @@ function(err, resp) {
 	if(resp.length>0){
 		console.log(resp);
 	} else{
-		console.log("Something wnt wrong during insert");
+		console.log("Something went wrong during insert :"+err);
 	}
 });
 ```
