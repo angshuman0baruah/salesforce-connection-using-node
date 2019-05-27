@@ -1,5 +1,5 @@
 # Salesforce Connection using Node JS - jsforce
-A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. In this repository all node files are there to set up salesforce connection peoject, please follow the instruction as I mentioned bellow section. .
+A sample Node.js application that integrates with Salesforce using npm jsforce module can be found in this repository. If you are beginner then also you will easily understand this code. In this repository all node files are there to set up salesforce connection peoject, please follow the instruction as I mentioned bellow section.
 
 As a programmer, I think this is the easiest way to retrieve without any API call. Just have to use like normal mongoo query. In this repository, I am attaching only code to retrieve only. You can also add a record in Salesforce. Here a sample code inserts a record :
 
