@@ -39,7 +39,7 @@ Before being able to interact with the Salesforce Platform with your application
 
 **Please make sure your Salesforce account should be Enterprise Edition or Unlimited Edition or Developer Edition
 
-## Configuring and instalation
+## Configuring and installation
 
 1. Create a new folder and add package.json
 2. npm install
@@ -52,7 +52,7 @@ Before being able to interact with the Salesforce Platform with your application
 
 ## How to Run
 
-After all Configuring and instalation
+After successfully completed all Configuring and installation 
 
 1. Run *node index* from your terminal
 2. After that, *"Connected to port 9005 for Salesforce! Developer : Angshuman Baruah"* on your terminal screen.
