@@ -42,7 +42,7 @@ Before being able to interact with the Salesforce Platform with your application
 ## Configuring and installation
 
 1. Create a new folder and add package.json
-2. *npm install* to install all modules in your project.
+2. **_npm install_** to install all modules in your project.
 3. Now copy other files to the newly created folder.
 4. Change PORT no as per your server on index.js file in the root. I put as 9005 as per my server.
 5. Change Salesforce credential on lib\controller\controller.salesforce.js file.
@@ -54,7 +54,7 @@ Before being able to interact with the Salesforce Platform with your application
 
 After successfully completed all Configuring and installation 
 
-1. Run *node index* from your terminal
+1. Run **_node index_** from your terminal
 2. After that, *"Connected to port 9005 for Salesforce! Developer : Angshuman Baruah"* on your terminal screen.
 3. From browser or postman using **_Get_** method hit URL : http://localhost:9005/ (Instead  of 9005 use your port no).
 4. The response will appear on your terminal.
